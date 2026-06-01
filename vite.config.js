@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/linkedin-engagement-insights/', // Inserisci qui il nome del tuo repository
+  base: '/linkedin-engagement-insights/', 
   server: {
     port: 5173,
     host: true
